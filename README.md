@@ -28,7 +28,9 @@ This tool can help users to:
 * Set saving goal (TBD)
 
 ## User Guide
-A brief tutorial will be available upon the completion of the program.
+Click on the "Download ZIP" option to download the files in the repository and then open the "AccountingSystem" application.
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Download_zip.PNG)
 
 In order to get a feel of the program, copying the files found in the "sample_records" folder and pasting them into the "data" folder is recommended. This will mean that the program will have existing sample records that you can feel free to experiment with. 
 
@@ -37,11 +39,22 @@ When you want to genuinely begin using the program, do not forget to delete thes
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Main_menu.PNG)
 
 ### Creating Accounts
-First things first, you have to create an account.
+First things first, you have to create a couple of accounts (two are needed to make a transaction).
+(note that if you have decided to use the sample files, you should begin by listing the accounts first and then experimenting as you please)
 Press 2 in the main menu to reach this screen:
+
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Account_menu.PNG)
 
 This option as well as the others comes with its own add, change, delete and search functions.
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/credit_card_acc.PNG)
+
+### Making Transactions
+Now you are ready to make your first transaction.
+Press 1 in the main menu to reach this screen:
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/first_transaction.PNG)
+
+
+
 
