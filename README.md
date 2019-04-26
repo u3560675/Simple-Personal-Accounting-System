@@ -43,5 +43,5 @@ Press 2 in the main menu to reach this screen:
 
 This option as well as the others comes with its own add, change, delete and search functions.
 
-![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/new_credit_card_account.PNG)
-![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/food.PNG)
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/credit_card_acc.PNG)
+
