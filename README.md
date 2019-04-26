@@ -47,12 +47,13 @@ Press 2 in the main menu to reach this screen:
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Account_menu.PNG)
 
-This option comes with its own add, change, delete and search functions.
+This option as well as the others comes with its own add, change, delete and search functions.
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/credit_card_acc.PNG)
 
 ### Making Transactions
 Now you are ready to make your first transaction.
+
 Press 1 in the main menu to reach this screen:
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/transaction_menu.PNG)
@@ -67,6 +68,10 @@ Press 3 in the main menu to reach this screen:
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/budget%20menu.PNG)
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/budget_setting.PNG)
+
+The warning is issued immediately after a transaction is made that results in the budget limit being crossed.
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/budget_warning.PNG)
 
 
 
