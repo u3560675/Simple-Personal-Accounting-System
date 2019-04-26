@@ -40,6 +40,8 @@ When you want to genuinely begin using the program, do not forget to delete thes
 First things first, you have to create an account.
 Press 2 in the main menu to reach this screen:
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Account_menu.PNG)
+
 This option as well as the others comes with its own add, change, delete and search functions.
-![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/credit_card_account.PNG)
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/new_credit_card_account.PNG)
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/new_food_account.PNG)
