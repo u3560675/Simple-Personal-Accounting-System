@@ -47,7 +47,7 @@ Press 2 in the main menu to reach this screen:
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Account_menu.PNG)
 
-This option as well as the others comes with its own add, change, delete and search functions.
+This option comes with its own add, change, delete and search functions.
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/credit_card_acc.PNG)
 
@@ -58,6 +58,16 @@ Press 1 in the main menu to reach this screen:
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/transaction_menu.PNG)
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/first_transaction.PNG)
+
+
+### Setting a Budget
+Next step is to try setting a budget for a specific account.
+Press 3 in the main menu to reach this screen:
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/budget%20menu.PNG)
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/budget_setting.PNG)
+
 
 
 
