@@ -29,3 +29,17 @@ This tool can help users to:
 
 ## User Guide
 A brief tutorial will be available upon the completion of the program.
+
+In order to get a feel of the program, copying the files found in the "sample_records" folder and pasting them into the "data" folder is recommended. This will mean that the program will have existing sample records that you can feel free to experiment with. 
+
+When you want to genuinely begin using the program, do not forget to delete these sample files and start fresh.
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Main_menu.PNG)
+
+### Creating Accounts
+First things first, you have to create an account.
+Press 2 in the main menu to reach this screen:
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Account_menu.PNG)
+This option as well as the others comes with its own add, change, delete and search functions.
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/credit_card_account.PNG)
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/new_food_account.PNG)
