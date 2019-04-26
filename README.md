@@ -40,7 +40,9 @@ When you want to genuinely begin using the program, do not forget to delete thes
 
 ### Creating Accounts
 First things first, you have to create a couple of accounts (two are needed to make a transaction).
-(note that if you have decided to use the sample files, you should begin by listing the accounts first and then experimenting as you please)
+
+Note that if you have decided to use the sample files, you should begin by listing the accounts first and then experimenting as you please.
+
 Press 2 in the main menu to reach this screen:
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Account_menu.PNG)
@@ -52,6 +54,8 @@ This option as well as the others comes with its own add, change, delete and sea
 ### Making Transactions
 Now you are ready to make your first transaction.
 Press 1 in the main menu to reach this screen:
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/transaction_menu.PNG)
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/first_transaction.PNG)
 
