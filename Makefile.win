@@ -1,0 +1,43 @@
+# Project: AccountingSystem
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o AccountMaster.o Utility.o BudgetMaster.o Transaction.o Report.o
+LINKOBJ  = main.o AccountMaster.o Utility.o BudgetMaster.o Transaction.o Report.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = AccountingSystem.exe
+CXXFLAGS = $(CXXINCS) -std=c++11
+CFLAGS   = $(INCS) -std=c++11
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+AccountMaster.o: AccountMaster.cpp
+	$(CPP) -c AccountMaster.cpp -o AccountMaster.o $(CXXFLAGS)
+
+Utility.o: Utility.cpp
+	$(CPP) -c Utility.cpp -o Utility.o $(CXXFLAGS)
+
+BudgetMaster.o: BudgetMaster.cpp
+	$(CPP) -c BudgetMaster.cpp -o BudgetMaster.o $(CXXFLAGS)
+
+Transaction.o: Transaction.cpp
+	$(CPP) -c Transaction.cpp -o Transaction.o $(CXXFLAGS)
+
+Report.o: Report.cpp
+	$(CPP) -c Report.cpp -o Report.o $(CXXFLAGS)
