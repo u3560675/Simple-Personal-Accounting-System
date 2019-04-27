@@ -120,7 +120,7 @@ The picture below shows budget control statistics of expenditure in the year 201
 It can be risky for you to have all your financial records in one place in case they get accidentally deleted or edited. For that reason, remember to make use of the "Backup Tables" function in our program as often as you like by pressing 5 in the main menu.
 
 
-You are now ready to make use of our simple accounting system!
+**You are now ready to make use of our simple accounting system!**
 
 
 
