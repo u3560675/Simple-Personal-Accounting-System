@@ -31,7 +31,7 @@ vector<tuple<string, string, string, string> > recordList_Budget;
 
 
 //-------------------------------------------------------------------------------------//
-// Sub-menu:  ACCOUNT CODE
+// Sub-menu:  BUDGET MASTER
 //-------------------------------------------------------------------------------------//
 void BudgetMaster::Menu()
 {

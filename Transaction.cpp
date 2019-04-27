@@ -34,7 +34,7 @@ vector<tuple<string, string, string, string, string, string, string, string, str
 
 
 //-------------------------------------------------------------------------------------//
-// Sub-menu:  ACCOUNT CODE
+// Sub-menu:  Transaction
 //-------------------------------------------------------------------------------------//
 void Transaction::Menu()
 {
@@ -186,10 +186,10 @@ void Transaction::Add_Transaction()
       break;
     }
     
-	//----------
+  	//----------
     // Input - Account Code 1 (Debit)
     //----------
-	counter1++;
+  	counter1++;
     while (true)
     {
       // input Account code
@@ -220,10 +220,10 @@ void Transaction::Add_Transaction()
       break;
     }
 	
-	//----------
+  	//----------
     // Input - Account Code 2 (Credit)
     //----------
-	counter1++;
+  	counter1++;
     while (true)
     {
       // input Account code

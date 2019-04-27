@@ -18,16 +18,16 @@ class Transaction
     const std::string filename_Transaction = ".\\data\\file_Transaction.txt";
     const std::string filename_TempOutput  = ".\\data\\file_Transaction.tmp";
     
-    struct TransactionRecord
+    struct TransactionRecord     // Struct used for storing records extracted from .txt file or strong new record enterd
     {
-      std::string lineID;
-      std::string transDate;
+      std::string lineID;        // Transaction Record Number (also the line number in the .txt file)
+      std::string transDate;     // Date of Transaction
       std::string acctCode1;     // Account (Debit)
       std::string acctCode2;     // Account (Credit)
-      std::string amount;
-      std::string refNbr;
-      std::string transType;
-      std::string transDesc;
+      std::string amount;        // Transaction Amount
+      std::string refNbr;        // Reference Number of the Record
+      std::string transType;     // Type of Transaction
+      std::string transDesc;     // Description
       std::string _endSpace;     // ending buffer for 'add_Record()' only (size = 100 - total_length)
       
       initialize()
@@ -44,12 +44,12 @@ class Transaction
       };
     };
     
-    struct TransactionFldChg
+    struct TransactionFldChg     // Struct used for showing changed record field (showing a '*' for edited records in Change_Transaction)
     {
       char lineID;
   	  char transDate;
-  	  char acctCode1;
-  	  char acctCode2;
+  	  char acctCode1;     // Account (Debit)
+  	  char acctCode2;     // Account (Credit)
   	  char amount;
   	  char refNbr;
   	  char transType;
@@ -68,12 +68,12 @@ class Transaction
   	  };
     };
     
-    struct TransactionFldLen
+    struct TransactionFldLen     // Struct for setting field lengths of record fields
     {
       int lineID;
   	  int transDate;
-  	  int acctCode1;
-  	  int acctCode2;
+  	  int acctCode1;     // Account (Debit)
+  	  int acctCode2;     // Account (Credit)
   	  int amount;
   	  int refNbr;
   	  int transType;
@@ -91,7 +91,7 @@ class Transaction
   		acctCode2 = 4;
   		amount    = 10;
   		refNbr    = 15;
-  		transType = 15;
+  		transType = 15;     // No pre-defined values to match, transaction type can be anything else
   		transDesc = 30;
   		_endSpace = ' ';
   		
@@ -117,25 +117,57 @@ class Transaction
     };
     
   public:
+    // Display budget master sub-menu, let user select functions listed
     void Menu();
+    
+    // Let user enter a new record, store the new record
     void Add_Transaction();
+    
+    // Let user view a list of records, select a record and change it, store the changes
     void Change_Transaction();
+    
+    // Let user view a list of records, select a record and delete it
     void Delete_Transaction();
+    
+    // Let user search for a record from a list of records, display the record's detail for user to review
     void Search_Transaction(bool showDetail, bool Loop);
+    
+    // Display the transaction record corresponding to the date of budget and account code specified
     void Display_Transaction(std::string lineID);
+    
+    // Generalized version of List_Records (call List_Records with default filterType and filterValue)
     void List_Records(bool showDetail);
+    
+    // Display all available records in list form, with different levels of detail and sorting order according to the requirements stated by the calling statement (the values set for filterValue showDetail)
     void List_Records(std::string filterType, std::string filterValue, bool showDetail);
+    
+    // Split a data row from the .txt file into values of the record
     bool split_DataRow_to_Fields(std::string DataRow, TransactionRecord& transRec1);
+    
+    // Display over-budget warning message when 
     void Alert_Budget(std::string acctCode, std::string date1, bool showAlert);
+    
+    // Check if the account code specified is already in use by a transaction record
     bool IsUsed_AccountCode(std::string acctCode);
 
 
   private:
+    // add a new record (copy original data + new record into new file, overwrite original file)
     void add_Record(TransactionRecord transRec1);
+    
+    // select a record and make changes to it (copy original data into new file, replace chosen record with new values, overwrite original file)
     void change_Record(TransactionRecord transRec1);
+    
+    // remove a record from .txt file (copy original data into new file, skip the chosen record, overwrite original file)
     void delete_Record(TransactionRecord transRec1);
+    
+    // Get a transaction record from the lineID provided
     bool getRec_by_TransactionLineID(std::string lineID, TransactionRecord& transRec1);
+    
+    // Get the next available transaction ID in the .txt file
     std::string getLast_LineID();
+    
+    // Get the last transaction ID in the .txt file
     std::string getNext_LineID();
     
 };
