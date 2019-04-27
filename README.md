@@ -90,15 +90,30 @@ Press 4 in the main menu to reach this screen:
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Statistics_menu.PNG)
 
+
 Example for Monthly/Yearly Statistics Report:
 
-The picture below is a statistical report for total expenditure in the year 2019:
+The picture below is a statistical report for total expenditure in the year 2019.
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Yearly_statistics_example.PNG)
 
+
 Example for Monthly/Annual Transaction Details:
 
-The picture below shows the transactions details for 
+The picture below shows the transactions details for "travel expenses" account in the year 2019.
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/travel_account_details.PNG)
+
+
+Example for Monthly/Yearly Budget Control Statistics:
+
+The picture below shows budget control statistics of expenditure in the year 2019.
+
+![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Budget_expense_statistics.PNG)
+
+
+### Creating Backup Records:
+It can be risky for you to have all your financial records in one place in case they get accidentally deleted or edited. For that reason, remember to make use of the "Backup Tables" function in our program as often as you like by pressing 5 in the main menu.
 
 
 
