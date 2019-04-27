@@ -1,0 +1,11 @@
+0001SALARY                        IY                            
+0002BANK CARD                     IN                            
+0003CASH                          IN                            
+0004CREDIT CARD                   IN                            
+0005ALIPAY                        IN                            
+0006OCTOPUS                       IN                            
+0007FOOD                          EN                            
+0008TRAVEL                        EN                            
+0009TRANSPORT                     EN                            
+0010GAME                          EN                            
+0011MEAL                          EN                            
