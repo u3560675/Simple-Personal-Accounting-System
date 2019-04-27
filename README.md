@@ -107,6 +107,7 @@ The picture below is a statistical report for total expenditure in the year 2019
 Example for Monthly/Annual Transaction Details:
 
 The picture below shows the transactions details for "travel expenses" account in the year 2019.
+
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/travel_account_details.PNG)
 
 
