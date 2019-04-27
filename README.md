@@ -27,6 +27,7 @@ This tool can help users to:
 * Tax planning (TBD)
 * Set saving goal (TBD)
 
+
 ## User Guide
 Click on the "Download ZIP" option to download the files in the repository and then open the "AccountingSystem" application.
 
@@ -83,8 +84,10 @@ The alert is issued immediately after a transaction is made that results in the 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/budget_warning.PNG)
 
 
+
 ### Experimenting
 You may now try adding, changing and deleting some new or existing account codes, transactions and budget records. Afterwards, try searching for or listing them to see what you've done.
+
 
 
 ### Viewing Statistical Reports
