@@ -38,6 +38,7 @@ When you want to genuinely begin using the program, do not forget to delete thes
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Main_menu.PNG)
 
+
 ### Creating Accounts
 First things first, you have to create a couple of accounts (two are needed to make a transaction).
 
@@ -52,6 +53,7 @@ This option as well as the others comes with its own add, change, delete and sea
 Add New Account Code:
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/credit_card_acc.PNG)
+
 
 ### Making Transactions
 Now you are ready to make your first transaction.
@@ -80,8 +82,10 @@ The alert is issued immediately after a transaction is made that results in the 
 
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/budget_warning.PNG)
 
+
 ### Experimenting
 You may now try adding, changing and deleting some new or existing account codes, transactions and budget records. Afterwards, try searching for or listing them to see what you've done.
+
 
 ### Viewing Statistical Reports
 The program also creates certain statistical reports that are updated every time a transaction is made.
@@ -94,27 +98,26 @@ Press 4 in the main menu to reach this screen:
 Example for Monthly/Yearly Statistics Report:
 
 The picture below is a statistical report for total expenditure in the year 2019.
-
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Yearly_statistics_example.PNG)
 
 
 Example for Monthly/Annual Transaction Details:
 
 The picture below shows the transactions details for "travel expenses" account in the year 2019.
-
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/travel_account_details.PNG)
 
 
 Example for Monthly/Yearly Budget Control Statistics:
 
 The picture below shows budget control statistics of expenditure in the year 2019.
-
 ![](https://github.com/AnikaSharmin/Simple-Personal-Accounting-System/blob/master/images/Budget_expense_statistics.PNG)
 
 
 ### Creating Backup Records:
 It can be risky for you to have all your financial records in one place in case they get accidentally deleted or edited. For that reason, remember to make use of the "Backup Tables" function in our program as often as you like by pressing 5 in the main menu.
 
+
+You are now ready to make use of our simple accounting system!
 
 
 
